@@ -1,3 +1,6 @@
 Hello C0224G1
 git init: Khởi tạo local repository(nơi lưu trữ trên máy của mình - tạo file .git)
-git add <fileName>
+git add <fileName>:  đẩy file demo vào staging area
+git commit -m "String": đưa thay đổi vào local repo, tạo 1 snap shot luu trữ lại lịch sử thay đổi
+git remote add origin URLgithub: Kết nối local repo với remote repo
+git push origin master: đẩy code từ local repo lên remote repo
